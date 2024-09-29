@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(173, 115, 73);
+}
+
+.container{
+    background-color: white;
+    padding: 3rem;
+    border-radius: 1rem;
+    min-height: 40vh;
+    width: 45vh;
+}
+
+form{
+    margin: 2rem 0 1rem 0;
+}
+
+form select,input,button {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input{
+    border: 1px solid lightgray;
+    background-color: lightgreen;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+}
+
+.dropDown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.dropDown i{
+    font-size: 1rem;
+}
+
+.select-container img{
+    max-width: 2rem;
+    margin: 1rem;
+}
+
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    border: 1px solid lightgray;
+    width: 7rem;
+}
+
+.select-container select{
+    font-size: 1rem;
+    width: auto;
+}
+
+.msg{
+    margin: 1rem 0 1rem 0;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 1rem;
+    background-color: rgb(78, 187, 209);
+    padding: 10px;
+}
+
+.rate-exchange{
+    margin: 1rem 0 2rem 0;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+    background-color:rgb(14, 234, 14);
+    padding: 15px;
+}
+
+form button{
+    height: 3rem;
+    background-color: rgb(48, 1, 48);
+    color: white;
+    font-size: 1.5rem;
+}
